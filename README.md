@@ -37,7 +37,11 @@ Next, we'll create an A-Record for "mainframe" with the IP address 8.8.8.8 on th
 </p>
 <br />
 
-![75607D3D-05C9-4E83-A351-D7944878DBC2_1_105_c](https://github.com/jamstylr/Building-Intuition-for-DNS/assets/159660523/de901359-2263-48d1-9a75-e6f21fb1d298)
+![image](https://github.com/jamstylr/Building-Intuition-for-DNS/assets/159660523/3dc8c47a-6143-456b-bd89-3a34898e5e42)
+![image](https://github.com/jamstylr/Building-Intuition-for-DNS/assets/159660523/383fda03-b545-4fc0-8415-ebd8a9072d39)
+![image](https://github.com/jamstylr/Building-Intuition-for-DNS/assets/159660523/85a047f3-db1c-4d2e-aeea-ba476eb9d9e1)
+![image](https://github.com/jamstylr/Building-Intuition-for-DNS/assets/159660523/a51505ba-db29-4ec6-a087-317cb1a50b1e)
+
 
 <p>
 Finally, we'll set up a CNAME record directing the host "search" to "www.google.com". When attempting to ping "search," the host won't be located. This is because the CNAME record for "search" doesn't exist yet. We need to return to the DNS Manager on DC-1 and establish the CNAME record for "search". Once the CNAME record is configured, we can ping "search" again, and it will resolve to www.google.com.
